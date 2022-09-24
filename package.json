@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-page",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruud1990/restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruud1990/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/Ruud1990/restaurant-page#readme"
+}
