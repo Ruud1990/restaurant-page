@@ -1,3 +1,5 @@
+import { reviewers } from './reviewers';
+import { slideGallery } from './gallery';
 
 
 
@@ -87,3 +89,6 @@ scrollLinks.forEach((link) => {
 });
 });
 // calculate heights
+reviewers();
+slideGallery();
+
