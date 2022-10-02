@@ -1,14 +1,14 @@
 import { reviewers } from './reviewers';
 import { slideGallery } from './gallery';
 import { menu } from './menu';
+import { handleModal } from './map-modal';
+
 
 
 // ********** set date ************
 // select span
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
-
-
 
 
 
@@ -27,7 +27,6 @@ navToggle.addEventListener("click", function () {
     } else {
         linksContainer.style.height = 0;
     }
-    console.log(linksContainer.getBoundingClientRect());
 });
 
 
@@ -88,7 +87,8 @@ scrollLinks.forEach((link) => {
     linksContainer.style.height = 0;
 });
 });
-// calculate heights
+
 reviewers();
 slideGallery();
 menu();
+handleModal();
