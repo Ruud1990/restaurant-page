@@ -1,6 +1,6 @@
 import { reviewers } from './reviewers';
 import { slideGallery } from './gallery';
-
+import { menu } from './menu';
 
 
 // ********** set date ************
@@ -91,4 +91,4 @@ scrollLinks.forEach((link) => {
 // calculate heights
 reviewers();
 slideGallery();
-
+menu();
