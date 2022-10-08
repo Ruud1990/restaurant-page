@@ -2,11 +2,11 @@ import { reviewers } from './reviewers';
 import { slideGallery } from './gallery';
 import { menu } from './menu';
 import { handleModal } from './map-modal';
+import { questions } from './questions';
 
 
 
 // ********** set date ************
-// select span
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
 
@@ -18,8 +18,6 @@ const linksContainer = document.querySelector(".links-container");
 const links = document.querySelector(".links");
 
 navToggle.addEventListener("click", function () {
-    // linksContainer.classList.toggle("show-links");
-    
     const linksHeight = links.getBoundingClientRect().height;
     const containerHeight = linksContainer.getBoundingClientRect().height;
     if (containerHeight === 0) {
@@ -88,7 +86,13 @@ scrollLinks.forEach((link) => {
 });
 });
 
+// ********** import reviewers section ************
 reviewers();
+// ********** import gallery section ************
 slideGallery();
+// ********** import menu section ************
 menu();
+// ********** import map/modal ************
 handleModal();
+// ********** import Q&A section ************
+questions();

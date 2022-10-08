@@ -72,6 +72,7 @@ html {
   box-sizing: border-box;
 }
 body {
+  width: 100vw;
   font-family: var(--ff-secondary);
   background: var(--clr-grey-9);
   color: var(--clr-grey-1);
@@ -888,4 +889,11 @@ Questions
 }
 .show-text .plus-icon {
   display: none;
+}
+
+
+@media screen and (max-width: 800px){
+ .question {
+   padding: 0.8rem 0.8rem 0 0.5rem
+ }
 }
