@@ -176,12 +176,6 @@ p {
   padding-bottom: 5rem;
 }
 
-
-/* @media screen and (min-width: 992px) {
-  .section-center {
-    width: 95vw;
-  }
-} */
 main {
   min-height: 100vh;
   display: grid;
@@ -214,9 +208,6 @@ nav {
 .fixed-nav .links a:hover {
   color: var(--clr-secondary);
 }
-/* .fixed-nav .links-container {
-  height: auto !important;
-} */
 .nav-header {
   display: flex;
   align-items: center;
@@ -452,9 +443,7 @@ footer p {
   }
 }
 
-
 /* reviewers section */
-
 
 .img-container {
   position: relative;
@@ -528,7 +517,6 @@ footer p {
   margin-bottom: 0.75rem;
 }
 
-
 .prev-btn,
 .next-btn {
   color: var(--clr-primary-7);
@@ -560,7 +548,6 @@ footer p {
     font-weight: 700;
   }
 }
-
 
 /*
 =============== 
@@ -667,7 +654,7 @@ Menu
 .title {
   text-align: center;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 .btn-menu-container {
   margin-bottom: 4rem;
@@ -698,7 +685,6 @@ Menu
   display: grid;
   gap: 3rem 2rem;
   justify-items: stretch;
-  /* grid-template-columns: 1fr 1fr; */
 }
 .menu-item {
   display: grid;
@@ -775,7 +761,7 @@ Modal
   visibility: hidden;
   z-index: -10;
 }
-/* OPEN/CLOSE MODAL */
+/* open/close modal */
 .open-modal {
   visibility: visible;
   z-index: 10;
@@ -829,9 +815,6 @@ iframe {
 Questions
 ===============
 */
-.title {
-  margin-bottom: 4rem;
-}
 .section-center {
   margin: 0 auto;
   width: 50vw;
@@ -870,9 +853,6 @@ Questions
 .question-text {
   padding: 1rem 0 1.5rem 0;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
-}
-.question-text p {
-  margin-bottom: 0;
 }
 /* hide text */
 .question-text {
