@@ -7,7 +7,8 @@
     "parcel": "^2.7.0"
   },
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build": "parcel src/index.html"
   },
   "repository": {
     "type": "git",

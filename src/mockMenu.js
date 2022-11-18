@@ -1,6 +1,6 @@
 
 
-export const menu = [
+export const mockMenu = [
     {
       id: 1,
       title: "chuck jr.",
