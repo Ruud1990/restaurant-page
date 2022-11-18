@@ -201,6 +201,7 @@ nav {
   width: 100%;
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
+  z-index: 1;
 }
 .fixed-nav .links a {
   color: var(--clr-grey-1);
@@ -399,28 +400,6 @@ footer p {
   font-size: 1.7rem;
 }
 
-.about-us-social-media {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.about-us-links {
-  font-size: 5rem;
-  margin: 15px 30px;
-  cursor: pointer;
-  color: var(--clr-secondary)
-}
-
-.about-us-links:hover {
-  color: var(--clr-primary-5)
-}
-
-.about-us-links-modal {
-  font-size: 5rem;
-}
-
-
 @media screen and (max-width: 1200px) {
   .about-us-info p {
     font-size: 1.2rem;
@@ -555,6 +534,8 @@ Slider
 ===============
 */
 
+
+
 .slider-container {
   border: 5px solid var(--clr-primary-5);
   width: 80vw;
@@ -565,6 +546,7 @@ Slider
   border-radius: 0.5rem;
   overflow: hidden;
   margin-top: 4rem;
+  z-index: -1;
 }
 .slide {
   position: absolute;
@@ -576,11 +558,11 @@ Slider
   place-items: center;
   transition: all 0.25s ease-in-out;
   text-align: center;
+  z-index: -1;
 }
 .slide-img {
   height: 100%;
   object-fit: cover;
-  z-index: 1;
 }
 .slide h1 {
   font-size: 5rem;
@@ -876,4 +858,30 @@ Questions
  .question {
    padding: 0.8rem 0.8rem 0 0.5rem
  }
+}
+
+
+/* =========
+FOOTER
+====== */
+
+.about-us-social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-us-links {
+  font-size: 5rem;
+  margin: 15px 30px;
+  cursor: pointer;
+  color: var(--clr-secondary)
+}
+
+.about-us-links:hover {
+  color: var(--clr-primary-5)
+}
+
+.about-us-links-modal {
+  font-size: 5rem;
 }
