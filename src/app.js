@@ -1,7 +1,7 @@
 import { reviewers } from './reviewers';
 import { slideGallery } from './gallery';
 import { menu } from './menu';
-import { handleModal } from './map-modal';
+import { handleModal } from './mapModal';
 import { questions } from './questions';
 
 

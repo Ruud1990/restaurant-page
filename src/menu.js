@@ -1,4 +1,4 @@
-import { menu } from './mock-menu';
+import { menu } from './mockMenu';
 
 export function menu (){
     // get parent element

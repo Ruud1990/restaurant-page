@@ -1,5 +1,5 @@
 
-import { reviews } from './mock-reviewers';
+import { reviews } from './mockReviewers';
 
 
 export function reviewers () {
