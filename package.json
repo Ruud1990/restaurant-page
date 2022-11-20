@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Ruud1990/restaurant-page/issues"
   },
-  "homepage": "https://github.com/Ruud1990/restaurant-page#readme"
+  "homepage": "https://github.com/Ruud1990/restaurant-page#readme",
+  "dependencies": {
+    "chalk": "^5.1.2"
+  }
 }
