@@ -3,12 +3,13 @@
   "description": "",
   "version": "1.0.0",
   "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "devDependencies": {
     "parcel": "^2.7.0"
   },
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel index.html"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
