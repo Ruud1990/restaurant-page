@@ -2,13 +2,13 @@
   "name": "restaurant-page",
   "description": "",
   "version": "1.0.0",
-  "source": "src/index.html",
+  "source": "index.html",
   "devDependencies": {
     "parcel": "^2.7.0"
   },
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel src/index.html"
+    "start": "parcel index.html",
+    "build": "parcel index.html"
   },
   "repository": {
     "type": "git",

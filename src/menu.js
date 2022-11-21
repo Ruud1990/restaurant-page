@@ -31,7 +31,7 @@ function diplayMenuItems(menuItems) {
   }
 
   function displayMenuButtons() {
-    const categories = menu.reduce(
+    const categories = mockMenu.reduce(
       function (values, item) {
         if (!values.includes(item.category)) {
           values.push(item.category);
@@ -54,13 +54,13 @@ function diplayMenuItems(menuItems) {
     filterBtns.forEach(function (btn) {
       btn.addEventListener("click", function (e) {
         const category = e.currentTarget.dataset.id;
-        const menuCategory = menu.filter(function (menuItem) {
+        const menuCategory = mockMenu.filter(function (menuItem) {
           if (menuItem.category === category) {
             return menuItem;
           }
         });
         if (category === "all") {
-          diplayMenuItems(menu);
+          diplayMenuItems(mockMenu);
         } else {
           diplayMenuItems(menuCategory);
         }
