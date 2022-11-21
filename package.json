@@ -2,7 +2,7 @@
   "name": "restaurant-page",
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
+  "source": "src/index.html",
   "devDependencies": {
     "parcel": "^2.7.0"
   },

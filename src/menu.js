@@ -6,7 +6,7 @@ const sectionCenter = document.querySelector(".section-center-menu");
 const btnContainer = document.querySelector(".btn-menu-container");
 // display all items when page loads
 window.addEventListener("DOMContentLoaded", function () {
-  diplayMenuItems(menu);
+  diplayMenuItems(mockMenu);
   displayMenuButtons();
 });
 
