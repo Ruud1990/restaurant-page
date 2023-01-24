@@ -761,7 +761,10 @@ Modal
   text-align: center;
   display: grid;
   place-items: center;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .close-btn {
   position: absolute;
