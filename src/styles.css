@@ -744,12 +744,12 @@ Modal
   display: grid;
   place-items: center;
   transition: var(--transition);
-  visibility: hidden;
+  display: none;
   z-index: -10;
 }
 /* open/close modal */
 .open-modal {
-  visibility: visible;
+  display: block;
   z-index: 10;
 }
 .modal-container {
