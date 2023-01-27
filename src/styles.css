@@ -892,3 +892,12 @@ FOOTER
 .about-us-links-modal {
   font-size: 5rem;
 }
+
+/* =========
+MESSENGER
+====== */
+
+#fb-root {
+  border: none;
+  max-width: 200px;
+}
